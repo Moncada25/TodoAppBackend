@@ -4,8 +4,8 @@
     "description": "a really cool app",
     "main": "index.js",
     "scripts": {
-        "build": "tsc -w",
-        "dev": "nodemon build/index.js"
+        "build": "nodemon build/index.js",
+        "dev": "tsc -w"
     },
     "engines": {
         "node": "16.x"
