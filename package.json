@@ -4,10 +4,8 @@
     "description": "a really cool app",
     "main": "index.js",
     "scripts": {
-        "start": "nodemon build/index.js",
-        "build": "webpack",
-        "compile": "tsc -w"
-        
+        "build": "nodemon build/index.js",
+        "deb": "tsc -w"
     },
     "engines": {
         "node": "16.x"
